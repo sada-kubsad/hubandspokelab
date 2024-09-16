@@ -8,3 +8,7 @@ terraform init
 terraform apply
 When prompted, provide password for VMs
 ```
+# Note the values generated at end of run:
+```
+
+```
