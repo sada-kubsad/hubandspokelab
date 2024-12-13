@@ -5,37 +5,37 @@
 variable primary-rg {
   description = "Resource group for primary Azure region"
   type        = string
-  default     = "HSLAB-primary-rg"
+  default     = "primary-rg"
 }
 
 variable secondary-rg {
   description = "Resource group for secondary Azure region"
   type        = string
-  default     = "HSLAB-secondary-rg"
+  default     = "secondary-rg"
 }
 
 variable onprem-site1-rg {
   description = "Resource group for simulated on-prem site 1"
   type        = string
-  default     = "HSLAB-onprem1-rg"
+  default     = "onprem1-rg"
 }
 
 variable onprem-site2-rg {
   description = "Resource group for simulated on-prem site 2"
   type        = string
-  default     = "HSLAB-onprem2-rg"
+  default     = "onprem2-rg"
 }
 
 variable "primary-location" {
   description   = "Azure location for primary region"
   type          = string
-  default       = "westeurope"
+  default       = "westus"
 }
 
 variable "secondary-location" {
   description = "Azure location for secondary region"
   type        = string
-  default       = "northeurope"
+  default       = "eastus"
 }
 
 variable "vpngw-shared-key" {
