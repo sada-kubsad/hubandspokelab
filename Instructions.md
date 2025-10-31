@@ -6,7 +6,7 @@ cd AVNM-secure-Hub-Spoke-multiregion/tf_code
 ## Either:
 export ARM_SUBSCRIPTION_ID=0276702b-8348-4d6a-8aa2-f34cb186ad09
 ## OR:
-### In main.tf set:
+### In terraform.tf set:
 ### provider "azurerm" {
 ###       subscription_id = "xxxxxxxxxxx5dd"  --> ID of the subscription that you want to use
 ###       features {}
