@@ -64,7 +64,7 @@ resource "azurerm_virtual_network_gateway" "onprem-site-2-vpngw" {
 
   active_active = true
   enable_bgp    = true
-  sku           = "VpnGw2"
+  sku           = "VpnGw2AZ"
   generation    = "Generation2"  
 
   ip_configuration {
